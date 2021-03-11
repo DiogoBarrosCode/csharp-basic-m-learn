@@ -48,12 +48,17 @@ string comparisonMessage = "";
 
 comparisonMessage = currentProduct.PadRight(20);
 comparisonMessage += String.Format($"{currentReturn:P}").PadRight(10);
+//comparisonMessage += String.Format("{0:P}", currentReturn).PadRight(10);
 comparisonMessage += String.Format($"{currentProfit:C}").PadRight(20);
+//comparisonMessage += String.Format("{0:C}", currentProfit).PadRight(20);
 
 comparisonMessage += "\n";
 
-comparisonMessage += String.Format($"{newProduct}").PadRight(20);
+comparisonMessage += newProduct.PadRight(20);
 comparisonMessage += String.Format($"{newReturn:P}").PadRight(10);
+//comparisonMessage += String.Format("{0:P}", newReturn).PadRight(10);
 comparisonMessage += String.Format($"{newProfit:C}").PadRight(20);
+//comparisonMessage += String.Format("{0:C}", newProfit).PadRight(20);
+
 
 Console.WriteLine(comparisonMessage);
