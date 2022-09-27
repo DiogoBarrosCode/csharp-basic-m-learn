@@ -4,15 +4,15 @@
     <img width="400" src="./.github/microsof-net.png">
 </p>
 
-## 🎯 Módulo1:  
+## 🎯 Módulo 1  
 ### [Dê seus primeiros passos com C#](https://docs.microsoft.com/pt-br/learn/paths/csharp-first-steps/)
 
 #
-## 🎯 Módulo2 
+## 🎯 Módulo 2 
 ### [Adicione lógica aos seus aplicativos com C#](https://docs.microsoft.com/pt-br/learn/paths/csharp-logic/)
 
 #
-## 🎯 Módulo3
+## 🎯 Módulo 3
 ### [Trabalhar com os dados em C#](https://docs.microsoft.com/pt-br/learn/paths/csharp-data/)
 
 #
